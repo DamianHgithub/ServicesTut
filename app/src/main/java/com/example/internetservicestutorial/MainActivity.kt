@@ -2,6 +2,8 @@ package com.example.internetservicestutorial
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.internetservicestutorial.di.DIManager
+import org.koin.dsl.module
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
