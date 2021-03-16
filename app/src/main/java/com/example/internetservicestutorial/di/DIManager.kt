@@ -23,6 +23,6 @@ class DIManager: Application() {
         }
     }
     companion object {
-        private const val channelID = "NotificationChannel"
+        const val channelID = "NotificationChannel"
     }
 }
